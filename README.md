@@ -16,6 +16,6 @@ Pada  permasalahan  penyusunan  rencana  kuliah  dengan  topological  sort,  ver
 - Jalankan ./TopoSort.exe
 
 ## Tentang
-Nama  : Christopher Justine William
-NIM   : 13519006
-Kelas : K-01
+- Nama  : Christopher Justine William
+- NIM   : 13519006
+- Kelas : K-01
