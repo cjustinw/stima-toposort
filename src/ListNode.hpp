@@ -3,6 +3,7 @@
 #define LIST_NODE_H
 
 #include "Node.hpp"
+#include "Graph.hpp"
 
 class ListNode{
     private:
