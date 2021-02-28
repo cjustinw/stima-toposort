@@ -6,8 +6,8 @@
 #ifndef LIST_NODE_H
 #define LIST_NODE_H
 
-#include "Node.hpp"
-#include "Graph.hpp"
+#include "13519006-Node.hpp"
+#include "13519006-Graph.hpp"
 
 class ListNode{
     private:

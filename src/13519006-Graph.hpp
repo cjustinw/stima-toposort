@@ -6,7 +6,7 @@
 #ifndef GRAPH_H
 #define GRAPH_H
 
-#include "Node.hpp"
+#include "13519006-Node.hpp"
 
 class Graph{
     private:

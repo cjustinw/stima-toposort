@@ -7,15 +7,15 @@
 #include <string>
 #include <fstream>
 
-#include "Node.hpp"
-#include "Graph.hpp"
-#include "ListNode.hpp"
+#include "13519006-Node.hpp"
+#include "13519006-Graph.hpp"
+#include "13519006-ListNode.hpp"
 
 using namespace std;
 
 /* 
     How to run :
-    -   g++ -o TopoSort.exe TopoSort.cpp Graph.cpp ListNode.cpp Node.cpp
+    -   g++ -o TopoSort.exe 13519006-TopoSort.cpp 13519006-Graph.cpp 13519006-ListNode.cpp 13519006-Node.cpp
     -   ./TopoSort.exe
 */
 
