@@ -1,3 +1,7 @@
+/* 
+    Nama    : Christopher Justine William
+    NIM     : 13519006
+*/
 
 #ifndef LIST_NODE_H
 #define LIST_NODE_H

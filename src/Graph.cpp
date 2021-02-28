@@ -1,3 +1,7 @@
+/* 
+    Nama    : Christopher Justine William
+    NIM     : 13519006
+*/
 
 #include <iostream>
 #include <string>
@@ -120,16 +124,4 @@ Node* Graph::searchVertex(string S)
         }
     }
     return NULL;
-}
-
-int Graph::getNumOfNodeWithoutPrev()
-
-{
-    int count = 0;
-    for(int i = 0; i < this->numOfVertex; i++){
-        if(this->vertex[i]->getInDegree() == 0){
-            count++;
-        }
-    }
-    return count;
 }

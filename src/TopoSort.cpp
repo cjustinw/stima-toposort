@@ -13,7 +13,11 @@
 
 using namespace std;
 
-// g++ -o TopoSort.exe TopoSort.cpp Graph.cpp ListNode.cpp Node.cpp
+/* 
+    How to run :
+    -   g++ -o TopoSort.exe TopoSort.cpp Graph.cpp ListNode.cpp Node.cpp
+    -   ./TopoSort.exe
+*/
 
 void TopoSort(Graph G)
 /* Melakukan pengurutan mata kuliah yang dapat diambil tiap semester dengan menggunakan topological sorting */
@@ -23,14 +27,14 @@ void TopoSort(Graph G)
     while(G.getNumOfVertex() != 0){ /* Cek graph ksosong */
         ListNode L;
         for(int i = 0; i < G.getNumOfVertex(); i++){ 
-            /* Cari graph yang memiliki derajar masuk = 0 dan masukkan ke ListNode L*/ 
+            /* Cari graph yang memiliki derajar masuk = 0 dan masukkan ke ListNode L */ 
             if(G.vertex[i]->getInDegree() == 0){
                 L.add(*G.vertex[i]);
             }
         }
         cout << "Semester " << count << " :";
         for(int i = 0; i < L.getNumOfNode(); i++){
-            /* Cetak ID untuk setiap graph yang memiliki derajat masuk = 0*/
+            /* Cetak ID untuk setiap node pada graph yang memiliki derajat masuk = 0 */
             cout << " " << L.list[i]->getID();
             /* Hapus setiap node yang memiliki derajat masuk = 0 dari graph */
             G.delVertex(*L.list[i]);
@@ -90,9 +94,7 @@ int main()
     TopoSort(G);
 
     cout << endl;
-    cout << "Press enter to exit . . . ";
-    cin.get();
+    system("pause");
 
     return 0;
 }
-

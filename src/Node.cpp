@@ -1,3 +1,7 @@
+/* 
+    Nama    : Christopher Justine William
+    NIM     : 13519006
+*/
 
 #include <iostream>
 #include <string>

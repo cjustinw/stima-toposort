@@ -1,3 +1,7 @@
+/* 
+    Nama    : Christopher Justine William
+    NIM     : 13519006
+*/
 
 #ifndef GRAPH_H
 #define GRAPH_H
@@ -44,8 +48,6 @@ class Graph{
         /* Return address dari node yang mengandung ID mata kuliah yang dicari */
         Node* searchVertex(string);
 
-        /* */
-        int getNumOfNodeWithoutPrev();
 };
 
 #endif
