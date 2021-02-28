@@ -1,0 +1,12 @@
+{
+    "editor.fontSize" : 15,
+    "workbench.iconTheme": "vscode-icons",
+    "files.associations": {
+        "iostream": "cpp",
+        "string": "cpp",
+        "xstring": "cpp",
+        "ostream": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp"
+    }
+}
